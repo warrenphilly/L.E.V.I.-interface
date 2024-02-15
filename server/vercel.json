@@ -9,8 +9,6 @@
    "routes": [
      { "src": "/static/(.*)", "dest": "/public/static/$1" },
      { "src": "/(.*)", "dest": "/build/index.html" }
-   ],
-   "env": {
-     "OPENAI_KEY": "@openai_key"
-   }
+   ]
+
  }

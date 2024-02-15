@@ -91,6 +91,9 @@ app.listen(PORT, () => {
   console.log("Navigate to http://localhost:" + PORT + " to see Hello World");
 });
 
+// Export the Express API
+module.exports = app;
+
 
 
 
