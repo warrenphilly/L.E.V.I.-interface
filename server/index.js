@@ -88,7 +88,7 @@ app.get("/", (req, res) => {
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
-  console.log("Navigate to http://localhost:" + PORT + " to see Hello World");
+  console.log("Navigate to http://localhost:" + PORT + " to see Hellocscscdscscsc World");
 });
 
 // Export the Express API
